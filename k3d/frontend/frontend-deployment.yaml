@@ -16,8 +16,8 @@ spec:
         tier: frontend
     spec:
       containers:
-        - name: nexttapp-frontend
-          image: shanmugalakshmichandrasekar360/testapp-express-frontend:latest
+        - name: nextapp-frontend
+          image: shanmugalakshmichandrasekar360/nextapp-frontend-app:latest
           imagePullPolicy: "Always"
           resources:
             requests:
